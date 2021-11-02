@@ -1,0 +1,44 @@
+{
+  "name": "vuepress-blog",
+  "version": "1.0.0",
+  "description": "一个极简主义Blog网站",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PolarisSP/myblog"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
+    "countup.js": "^2.0.8",
+    "hash-sum": "^2.0.0",
+    "jquery": "^3.6.0",
+    "markdown-it-emoji": "^2.0.0",
+    "vuepress-plugin-auto-sidebar": "^2.3.2",
+    "vuepress-plugin-cursor-effects": "^1.0.2"
+  },
+  "devDependencies": {
+    "@vssue/api-github-v4": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.8",
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.3",
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "@vuepress/plugin-pwa": "^1.8.2",
+    "@vuepress/theme-blog": "^2.3.3",
+    "moment": "^2.29.1",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-reading-progress": "^1.0.10",
+    "vuepress-theme-reco": "^1.6.6"
+  }
+}
