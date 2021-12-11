@@ -5,8 +5,8 @@ module.exports = [{
   sidebarDepth: 1,
   children: [
     "/java/Mysql/mysql.md",
-    "java/Mysql/transaction.md",
-    "java/Mysql/lock.md",
-    "java/Mysql/dataindex.md"
+    "/java/Mysql/transaction.md",
+    "/java/Mysql/lock.md",
+    "/java/Mysql/dataindex.md"
   ]
 }]

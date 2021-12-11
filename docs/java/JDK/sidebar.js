@@ -5,6 +5,7 @@ module.exports = [{
   sidebarDepth: 1,
   children: [
     "/java/JDK/Optional.md",
-    "java/JDK/fanxing.md"
+    "/java/JDK/fanxing.md",
+    "/java/JDK/objectMapper.md"
   ]
 }]

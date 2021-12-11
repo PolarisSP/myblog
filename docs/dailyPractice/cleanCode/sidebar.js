@@ -4,6 +4,7 @@ module.exports = [{
   collapsable: false,
   sidebarDepth: 1,
   children: [
-    "/dailyPractice/cleanCode/one.md"
+    "/dailyPractice/cleanCode/one.md",
+    "/dailyPractice/cleanCode/three.md"
   ]
 }]
